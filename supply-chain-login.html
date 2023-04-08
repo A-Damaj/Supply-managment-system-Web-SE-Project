@@ -5,25 +5,25 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<img src="logo.jpeg" alt="Cloud Supply Chain Management System Logo">
-	</header>
+	
 	<main>
-		<form method="post" action="login.php">
-			<h1>Login</h1>
-			<label for="role">Choose a role:</label>
-			<select id="role" name="role">
-				<option value="supplier">Supplier</option>
-				<option value="admin">Admin</option>
-				<option value="moderator">Moderator</option>
-				<option value="customer">Customer</option>
-			</select>
-			<label for="username">Username/Email:</label>
-			<input type="email" id="username" name="username" required>
-			<label for="password">Password:</label>
-			<input type="password" id="password" name="password" required>
-			<input type="submit" value="Log in">
-		</form>
+		<div class="login-container">
+			<img src="logo.png" alt="Logo" class="login-logo">
+			<form method="post" action="login.php">
+				
+				<label for="role">Choose a role:</label>
+				<select id="role" name="role">
+					<option value="supplier">Supplier</option>
+					<option value="customer">Customer</option>
+				</select>
+				<label for="username">Username/Email:</label>
+				<input type="email" id="username" name="username" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<input type="submit" value="           Log in           "> 
+				<label> Sign up?</label>
+			</form>
+		</div>
 	</main>
 </body>
 </html>
