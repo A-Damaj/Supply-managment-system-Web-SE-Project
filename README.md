@@ -2,7 +2,7 @@
 
 This is a web-based supply chain management system that allows suppliers and customers to interact with each other in the cloud. This project is part of a software engineering course and is for educational purposes only.
 
-## Features
+## Features*
 
 The system includes the following features:
 
@@ -14,7 +14,7 @@ The system includes the following features:
 - Inventory management for suppliers
 - Order tracking for customers
 
-## Technologies Used
+## Technologies Used*
 
 The following technologies were used in building this project:
 
