@@ -13,7 +13,6 @@ The system includes the following features:
 - Ability for customers to place orders
 - Inventory management for suppliers
 - Order tracking for customers
-- Integration with third-party shipping providers
 
 ## Technologies Used
 
